@@ -3,10 +3,10 @@ name: CI for karsajobs-ui
 on:
   push:
     branches:
-      - karsajobs-ui
+      - main
   pull_request:
     branches:
-      - karsajobs-ui
+      - main
 
 jobs:
   lint-dockerfile:
